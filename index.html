@@ -1,162 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Html css test</title>
-    <!--CSS link-->
-    <link rel="stylesheet" href="index.css">
-    
-</head>
+<html>
+<title>Indian Cuisine</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  background-color: peru;
+}
+.nisha{
+    font-size: 32px;
+}
+.menu {
+    float: right;
+    width: 60%;
+}
+.background {
+    background-color: crimson;
+}
+</style>
 <body>
 
-<table id="table1">
-    <caption>My First HTML Table</caption>
-<thead>
-    <!--th means the column head-->
-    <!--tr means the table row-->
-<tr>
-    <th>Name</th>
-    <th> Country</th>
-    <th>Salary</th>
-</tr>
-</thead>
-<tbody>
-     <tr>
-        <td>Nisha</td>
-        <td>Hindu</td>
-        <td>Indian</td>
-    </tr>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button nisha">Indian Cuisine</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#online order" class="w3-bar-item w3-button">Online Order</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
 
-     <tr>
-        <td>Fanish</td>
-        <td>Islam</td>
-        <td>UK</td>
-     </tr>
-     
-     <tr>
-        <td>Peter</td>
-        <td class="table_td_colour">Christan</td>
-        <td>Greek</td>
-     </tr>  
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img src="indian cuisine.jpg" alt="" width="1200" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    </div>
+    <h1 class="w3-xxlarge" style="text-align: center;">Nisha Dhaba</h1>
+</header>
 
-     <tr>
-        <td>Vaso</td>
-        <td>Orthodox</td>
-        <td>UK</td>
-     </tr>  
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
 
-     <tr>
-        <td>priya</td>
-        <td>Islam</td>
-        <td>London</td>
-     </tr>
-     <tr>
-         <td>
-             <a href="Gallery.html"></a>
-         <img src="lion pic.jpg" class="table_image"alt="">
-         </td>
-         <td>
-            <img src="tree pic.jpg" class="table_image"alt="">
-        </td>
-        <td>
-            <img src="lion pic.jpg" class="table_image"alt="">
-        </td>  
-     </tr>
-</tbody>
-
-</table><br><br>
-<table id="table2">
-    <caption>My First HTML Table</caption>
-<thead>
-    <!--th means the column head-->
-    <!--tr means the table row-->
-<tr>
-    <th>Name</th>
-    <th> Country</th>
-    <th>Salary</th>
-</tr>
-</thead>
-<tbody>
-     <tr>
-        <td>Nisha</td>
-        <td>Hindu</td>
-        <td>Indian</td>
-           </tr>
-
-     <tr>
-        <td>Fanish</td>
-        <td>Islam</td>
-        <td>UK</td>
-     </tr>
-     
-     <tr>
-        <td>Peter</td>
-        <td class="table_td_colour">Christan</td>
-        <td>Greek</td>
-     </tr>  
-
-     <tr>
-        <td>Vaso</td>
-        <td>Orthodox</td>
-        <td>UK</td>
-     </tr>  
-
-     <tr>
-        <td>priya</td>
-        <td>Islam</td>
-        <td>London</td>
-     </tr>
-     <tr>
-         <td>
-             <a href="Gallery.html"></a>
-         <img src="lion pic.jpg" class="table_image"alt="">
-         </td>
-         <td>
-            <img src="tree pic.jpg" class="table_image"alt="">
-        </td>
-        <td>
-            <img src="lion pic.jpg" class="table_image"alt="">
-        </td>  
-     </tr>
-</tbody>
-
-</table
-
-
-<br><br>
-    <br><div id="topMenu">
-        www.Nisha.com 
-        <a href="#" class="linkcolour linkBG paddingTest">Home Page </a>
-        <a href="#">About Me</a>
-        
-
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="chicken-biryani.jpg" alt="" width="500" height="600">
     </div>
     
-    <div id="content" class="middle">
-        
-        <p>
-            <img src="tree pic.jpg" class="pic">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, consequatur odit voluptatibus unde ad quaerat nobis? Sunt beatae, doloribus, quos ullam vero veniam accusantium voluptate repellendus officia at repudiandae explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et debitis ad hic sapiente minus sequi fuga quo similique, ab perferendis, quasi accusamus, rem id itaque ipsam beatae explicabo? Blanditiis, sed.
-        </p>
-        <form class="form">
-            <h1>Contact Me</h1>
-            <label for="email id">Email Address</label>
-            <input type="email"> <br>
-            <label for="password ">Password </label>
-            <input type="password"><br>
-            <label for="first name">First Name</label>
-            <input type="text"><br><br>
-            <button type="submit">SUBMIT </button>
-              
-        </form>
 
-
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Us</h1><br>
+      <h4 class="w3-center">40 years of experience warmly welcome!</h4>
+      <p style="font-size:32px;">Our restaurantis a family business, which for 12 years is headed by Fanish Shukla and his wife Nisha Shukla for excellent cuisine in Dusseldorf .Nisha Shukla has worked in India for more than 15 years in the hotels and restaurants.</p>
+      <p>The team is supported by professional chefs, service staff and the other members of the family. <br>We offer a wide selection of vegan, vegetarian and non vegetarian dishes in a friendly and familiy atmosphere. Our restaurant has been there from more than 13 years in Dusseldorf und attracts their guests with the unique flavor of traditional Indian cuisine. During this time We have lots of local as well International guests,
+        who visit us very often..We are pleased that our Quality of food and service is not only complemented personally, but also in many Socials websites.</p>
+    </div>
+  </div>
+   
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br><br>
+      <h4>Chicken Biryani</h4>
+      <p>Nicely cooked chicken with different spices and flavoured rice  8.00€</p><br>
+    
+      <h4>Chola Bhatura</h4>
+      <p>Assortment of chickpeas with different spices and puffed bread  7.00€</p><br>
+    
+      <h4>Crispy Crunchy Samosas</h4>
+      <p>Crispy crunchy triangular bread stuffed with mashed potatoes,peas,baby corn. 5.00€</p><br>
+    
+      <h4>Rajma Chawal</h4>
+      <p>kidney beans assorted with different spices onion and tomatoes and served with white rice. 8.00€</p><br>
+    
+      <h4>Idlis</h4>
+      <p>steamed cooked  fermented batter of rice and white lentils and served with different curry and chutney 5.00€</p><br>    
+    
+      <h4>Gulab Jamun (Desert)</h4>
+      <P>Balls of milk powder and flour with cardamoms and some flavor soaked in sugar syrup. 2€</P>
     </div>
     
-    <div id="footer">
-        copyright @ nisha,2020
-
+    <div class="w3-col l6 w3-padding-large">
+      <img src="indian menu pic.jpg" alt="Menu" style="width:70%;height: 150px;"><br><br>
+  <img src="chola bhatura.jpg" alt="Menu" style="width:70%"><br><br>
+  <img src="rajma.jpg" width="70%">
+  <img src="gulab jamun.jpg" alt="Menu" width="70%">
     </div>
+  </div>
+
+  <hr>
+
+  <!-- online order -->
+  <div class="w3-container w3-padding-64" id="online order">
+    <h1>Online Order</h1><br>
+    <p>For online oder, you just need to go this email 
+        <a href="#">onlineoder@indiancuisine.com</a> or place your ORDER with the order button.
+    </p>
+    <br>
+    <button type="button" style="background-color:crimson;color: white; font-size: 32px; margin: 0% 30% 0% 30%;">
+        <a href="oder">ORDER NOW!</a>
+     
+    </button>
+  </div>
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering also for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Indian Cuisine, 47 Bilker Allee, Dusseldorf 41420,Germany</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@indiancuisine.com, or you can send us a message here:</p>
+    <form action="#" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button style="background-color: crimson; color: white; font-size: 32px; margin:0% 30% 0% 30%;">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by Nisha Shukla</p>
+</footer>
+
 </body>
 </html>
