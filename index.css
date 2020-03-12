@@ -1,0 +1,161 @@
+/*
+for tag no # or .
+
+tagName {
+    keys: "value";
+}
+for id we use #
+#idname {
+   keys: "value";
+   keys: "value";
+}
+
+for class we use .
+.classname{
+    keys: "value1 value2 value3";as many as we want
+}
+*/
+body{
+    background-color: aqua;
+    color: black;
+}
+#topMenu {
+    background-color: brown;
+    color: black;
+    font-size:32px ;
+}
+#content {
+    color: black;
+    font-family: cursive;
+    font-size: 16px;
+    background-color: white;
+   /* border-left: 5px solid black;
+    border-top: 10px dotted green;
+    border-right:8px double red;
+    border-bottom: 15px solid black;
+*/
+} 
+#footer {
+    background-color: darkmagenta;
+color: darkred;
+border: 5px solid red;
+position: fixed;
+bottom: 0;
+left: 0 ;
+width: 100%;
+text-align: center;
+}
+
+/*classes*/
+.linkcolour {
+    color: crimson;
+
+}
+.linkBG {
+    background-color: white;
+    text-decoration: none;
+}
+.middle {
+    margin: 20%;
+    }
+
+.paddingTest {
+    padding-left: 10px;
+    padding-right:10px ;
+}
+a {
+    color: springgreen;
+    background-color: blue;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right:10px ;
+
+}
+a:hover {
+    color: chartreuse;
+    background-color: crimson;
+}
+.pic {
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dotted red;
+}
+img:hover {
+opacity: 0.5;
+border: 2px solid black;
+}
+
+.form {
+    background-color: brown;
+    color: black;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    padding: 5px 5px 5px 5px;
+    margin: 9px 0 ;
+}
+table{
+    margin: 5px;
+}
+#table1 {
+ background-color: darkgoldenrod;
+ border: 2px solid black;
+ width: 50%;
+ border-spacing: 0px;
+}
+#table2{
+    background-color: darkgoldenrod;
+    border: 2px dotted blueviolet;
+    width: 100%;
+    border-spacing: 0px;   
+}
+thead {
+    background-color: blueviolet;
+    }
+    
+ tr {
+    color: white;
+}
+th {
+   color: black;
+}
+td {
+    border:1px solid black;
+    text-align: center;
+
+}
+/* nth-child means the number of row going to change for table*/
+tbody tr:nth-child(odd){
+    background-color: brown;
+
+}
+tbody tr:nth-child(even){
+background-color:blue ;
+}
+.table_td_colour {
+    background-color: chartreuse;
+}
+.table_image{
+    width: 40px;
+    height: 40px;
+
+}
+a {
+  color: white;  
+}
+ul {
+    list-style: none;
+    background-color: crimson;
+    overflow: hidden;
+}
+ul li {
+    float: left;
+} 
+li a {
+display: block;
+text-decoration:none;
+}

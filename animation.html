@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 256px;
+  height: 256px;
+  background-image: url(https://i.pinimg.com/originals/61/77/8d/61778d76ac4687f603a4bebf07c3b5e7.png);
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1000px;}
+}
+
+</style>
+</head>
+<body>
+
+<h1>The animation Property</h1>
+
+<p>Move an element from 0px to 200px left. The animation lasts for 5 seconds. It then starts over again, and go on forever (infinite).</p>
+<div></div>
+
+<p><strong>Note:</strong> The animation property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>
